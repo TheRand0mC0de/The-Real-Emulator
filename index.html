@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Pokemon Unbound</title>
-  <style>
-    html, body {
-      margin: 0;
-      height: 100%;
-      background: black;
-    }
-    #game {
-      width: 100%;
-      height: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Pokémon Unbound</title>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
 
 <div id="game"></div>
 
 <script>
-  window.EJS_player = "#game";
-  window.EJS_core = "gba";
-  window.EJS_gameUrl = "https://github.com/TheRand0mC0de/The-Real-Emulator/releases/download/v1/Pokemon.Unbound.v2.1.1.1.gba";
-  window.EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+    EJS_player = "#game";
+    EJS_core = "gba";
+
+    EJS_gameUrl = "https://github.com/TheRand0mC0de/The-Real-Emulator/releases/download/v1/Pokemon.Unbound.v2.1.1.1.gba";
+
+    EJS_pathtodata = "EmulatorJS/data/";
 </script>
 
-<script src="https://cdn.emulatorjs.org/stable/loader.js"></script>
+<script src="EmulatorJS/loader.js"></script>
 
 </body>
 </html>
-
